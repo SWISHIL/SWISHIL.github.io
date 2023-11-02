@@ -172,9 +172,9 @@
 
 <section data-bs-version="5.1" class="slider3 cid-tUrkBCg3vY mbr-fullscreen" id="slider03-1j">
     
-    <div class="carousel slide carousel-fade" id="tUsKHIYwpc" data-ride="carousel" data-bs-ride="carousel" data-interval="5000" data-bs-interval="5000">
+    <div class="carousel slide carousel-fade" id="tUsLM19mdB" data-ride="carousel" data-bs-ride="carousel" data-interval="5000" data-bs-interval="5000">
         <ol class="carousel-indicators">
-            <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#tUsKHIYwpc" data-bs-target="#tUsKHIYwpc"></li><li data-slide-to="1" data-bs-slide-to="1" class="" data-target="#tUsKHIYwpc" data-bs-target="#tUsKHIYwpc"></li><li data-slide-to="2" data-bs-slide-to="2" class="" data-target="#tUsKHIYwpc" data-bs-target="#tUsKHIYwpc"></li><li data-slide-to="3" data-bs-slide-to="3" class="" data-target="#tUsKHIYwpc" data-bs-target="#tUsKHIYwpc"></li>
+            <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#tUsLM19mdB" data-bs-target="#tUsLM19mdB"></li><li data-slide-to="1" data-bs-slide-to="1" class="" data-target="#tUsLM19mdB" data-bs-target="#tUsLM19mdB"></li><li data-slide-to="2" data-bs-slide-to="2" class="" data-target="#tUsLM19mdB" data-bs-target="#tUsLM19mdB"></li><li data-slide-to="3" data-bs-slide-to="3" class="" data-target="#tUsLM19mdB" data-bs-target="#tUsLM19mdB"></li>
             
             
         </ol>
@@ -223,11 +223,11 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#tUsKHIYwpc">
+        <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#tUsLM19mdB">
             <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
             <span class="sr-only visually-hidden">Previous</span>
         </a>
-        <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#tUsKHIYwpc">
+        <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#tUsLM19mdB">
             <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
             <span class="sr-only visually-hidden">Next</span>
         </a>
@@ -314,7 +314,7 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="i+V4sdrmQ+5YcKDxbDV8BLcS0NaoZrpyvc1zZZBUmi4/ZjfxZlghq4uod1i0pr3nNvAHUbgvpyzUBynwaynl293hrsnrLmVU4gH09XbFAbqbOBP8uqVnelcPltU4RLOU">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="EolDpCClC9yWWOk5vUP2z1rUAQRrABGD17e5kYx47y+FnU7khton1kAXYNky0kKZzisD3cMvE2NpgTp3zbbWH6lULMTEf1hUKUXtCuJZbQHrDeCPBwY01htrjKcmZuKC">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">תודה על כך שפניתם אלינו
 !נחזור אליכם בהקדם</div>
@@ -335,38 +335,32 @@
                         <div class="col-12 form-group mb-3" data-for="textarea">
                             <textarea name="textarea" placeholder="הודעה" data-form-field="textarea" class="form-control" id="textarea-form02-6"></textarea>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-secondary display-7">!אני רוצה אתר<div></div></button></div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-secondary">!אני רוצה אתר<div></div></button></div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
     
-     <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const form = document.querySelector(".mbr-form");
+    <script>
+function validateForm() {
+    // Get references to the form input fields
+    var nameInput = document.querySelector('input[name="name"]');
+    var emailInput = document.querySelector('input[name="email"]');
+    var phoneInput = document.querySelector('input[name="phone"]');
+    var textareaInput = document.querySelector('textarea[name="textarea"]');
 
-                form.addEventListener("submit", function (event) {
-                    event.preventDefault(); // Prevent the form from submitting
-
-                    const name = form.querySelector("input[name='name']").value;
-                    const phone = form.querySelector("input[name='phone']").value;
-
-                    if (name.trim() === "" || phone.trim() === "") {
-                        formStatus.innerHTML = "שם ו/או מספר טלפון ריקים!";
-                        formStatus.style.display = "block";
-                    } else {
-                        // If the input is valid, you can submit the form or perform other actions.
-                        // For example, you can use AJAX to send the form data to a server.
-                        formStatus.innerHTML = "Form submitted successfully!";
-                        formStatus.className = "alert alert-success";
-                        formStatus.style.display = "block";
-                        // Uncomment the following line to submit the form
-                        // form.submit();
-                    }
-                });
-            });
-        </script>
+    // Check if any of the required fields are empty
+    if (nameInput.value.trim() === "" || phoneInput.value.trim() === "" || textareaInput.value.trim() === "") {
+        // Display an error message (you can customize this message)
+        alert("Please fill in all required fields.");
+        return false; // Prevent form submission
+    }
+    
+    // If all required fields are filled, allow form submission
+    return true;
+}
+</script>
 </section>
 
 <section data-bs-version="5.1" class="footer4 cid-tUszGIHdVL" once="footers" id="footer04-1u">
