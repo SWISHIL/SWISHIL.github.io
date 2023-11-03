@@ -988,11 +988,12 @@
               "padding-bottom": "(@paddingBottom * 1rem)",
               ".carousel": {
                 "height": "800px",
+                "display": "flex",
                 "img": {
                   "max-width": "100%",
                   "height": "100%",
                   "object-fit": "cover",
-                  "display": "flex"
+                  "flex": "1 1 auto"
                 }
               },
               ".carousel-item, .carousel-inner": {
