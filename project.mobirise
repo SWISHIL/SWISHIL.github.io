@@ -1113,6 +1113,9 @@
             ".mbr-section-text, .mbr-section-btn": {
               "color": "#ffffff",
               "text-align": "center"
+            },
+            ".item-wrapper img": {
+              "max-width": "100%"
             }
           },
           "_name": "slider03",
