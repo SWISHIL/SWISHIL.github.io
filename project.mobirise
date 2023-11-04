@@ -7,7 +7,7 @@
       "title": "StartM5",
       "styling": {
         "primaryColor": "#ffffff",
-        "secondaryColor": "#c47aeb",
+        "secondaryColor": "#4e54e7",
         "successColor": "#3a341c",
         "infoColor": "#320707",
         "warningColor": "#a0e2e1",
@@ -895,6 +895,19 @@
             },
             ".mbr-section-title DIV": {
               "text-align": "center"
+            },
+            ".btn": {
+              "background": "linear-gradient(90deg, #c47aeb, #4e54e7)",
+              "border": "none",
+              "color": "#fff",
+              "padding": "10px 20px",
+              "cursor": "pointer",
+              "font-size": "16px",
+              "border-radius": "5px",
+              "transition": "background 0.3s"
+            },
+            ".btn:hover": {
+              "background": "linear-gradient(0deg, #c47aeb, #4e54e7)"
             }
           },
           "_name": "header05",
